@@ -1,12 +1,8 @@
-site_name: My Docs
+site_name: API Journey Hub
 
 theme: material
 
 nav:
   - Home: index.md
-  - API Study:
-      - Overview: api-study/overview.md
-      - Endpoints:
-          - Get User: api-study/endpoints/get-user.md
-          - Create User: api-study/endpoints/create-user.md
-      - Authentication: api-study/authentication.md
+  - Fundamentals:
+      - Introdução: fundamentals/introducao.md
