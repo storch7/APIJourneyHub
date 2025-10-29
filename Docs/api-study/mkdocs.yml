@@ -6,3 +6,4 @@ nav:
   - Home: index.md
   - Fundamentals:
       - Introdução: fundamentals/introducao.md
+      - HTTP e REST: fundamentals/http&rest.md
