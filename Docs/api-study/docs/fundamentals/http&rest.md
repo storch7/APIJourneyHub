@@ -96,3 +96,60 @@ A layman’s example of a layered system is the MVC pattern. The MVC pattern all
 ### Code on Demand (Optional)
 
 REST also allows client functionality to be extended by downloading and executing code in the form of applets or scripts.
+
+---
+
+## What is a resource?
+
+The key abstraction of information in REST is a resource. Any information that we can name can be a resource.
+
+The state of the resource at any particular time is known as the resource representation. The resource representations consist of:
+
+- the data;
+- the metadata describing the data;
+- and the hypermedia links that can help the clients transition to the next desired state.
+
+### Resource Identifiers
+
+REST uses resource identifiers to identify each resource involved in the interactions between the client and the server components
+
+#### Hypermedia
+
+The data format of a representation is known as a media type. The media type identifies a specification that defines how a representation is to be processed. A RESTful API looks like **hypertext**. 
+
+#### Self-Descriptive
+
+Resource representations shall be self-descriptive: the client does not need to know if a resource is an employee or a device. It should act based on the media type associated with the resource.
+
+---
+
+## Example
+
+```JSON
+{
+  "id": 123,
+  "title": "What is REST",
+  "content": "REST is an architectural style for building web services...",
+  "published_at": "2023-11-04T14:30:00Z",
+  "author": {
+    "id": 456,
+    "name": "John Doe",
+    "profile_url": "https://example.com/authors/456"
+  },
+  "comments": {
+    "count": 5,
+    "comments_url": "https://example.com/posts/123/comments"
+  },
+  "self": {
+    "link": "https://example.com/posts/123"
+  }
+}
+```
+
+---
+
+## Histórico de versão
+
+| Versão | Alteração | Data |
+|---|---|---|
+|1.1| Construção da página e conteúdo | 28/10/2025 |
