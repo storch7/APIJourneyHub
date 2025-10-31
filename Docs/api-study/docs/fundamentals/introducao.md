@@ -63,4 +63,4 @@ REST APIs include many endpoints that return fixed data structures, which can re
 
 | Versão | Alteração | Data |
 |---|---|---|
-|1.1| Construção da página e conteúdo | 28/10/2025 |
+|1.0| Construção da página e conteúdo | 28/10/2025 |

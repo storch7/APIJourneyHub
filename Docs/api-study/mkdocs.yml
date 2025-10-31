@@ -7,3 +7,4 @@ nav:
   - Fundamentals:
       - Introdução: fundamentals/introducao.md
       - HTTP e REST: fundamentals/http&rest.md
+      - Status Codes: fundamentals/status-codes.md
